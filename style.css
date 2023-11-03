@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Poppins:wght@300;400&display=swap');
+#nav-and-first-image {
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    width: 1;
+}
+.ktw-logo {
+    margin-left: 70px;
+    width: 100px;
+    height: 20px;
+    margin-top: 15px;
+}
+.cart-icon {
+    width: 25px;
+    height: 20px;
+    margin-top: 13px;
+}
+.cart-items {
+    position: relative;
+}
+.first-image {
+    height: 275px;
+}
+.shop {
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 100px;
+    font-size: 30px;
+    margin-top: -200px;
+    font-family: 'Lora', serif;
+}
+.have-fun {
+    color: white;
+    position: relative;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+}
+.repeat {
+    color: white;
+    position: relative;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+}
+.discover-new-books {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+}
+.second-page {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.third-page {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.forth-page {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.last-page {
+    margin-top : 100px;
+    height: 190px;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: relative;
+    bottom: 0px;
+}
+#last-page-1 {
+    margin-left: 30px;
+    width: 170px;
+}
+.krishti {
+    margin-left: 30px;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+.kalvian {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 900px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-1 {
+    background-color: aliceblue;
+    margin-left: 20px;
+    width: 100%;
+}
+.text {
+    background-color: black;
+}
+#cart {
+    display: flex;
+}
+.button {
+    background-color: aqua;
+    color:white;
+    position: relative;
+    margin-left: 80px;
+}
+.tag{
+    background-color: rgb(43, 207, 218);
+    height: 40px;
+    display: flex;
+}
+.add{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.prize{
+    display: flex;
+    justify-content: space-between;
+}
+.prize-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    height: 10px;
+}
+.button {
+    display: flex;
+    background-color: rgb(67, 144, 227);
+    height: 25px;
+    width: 55px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.button-cart {
+    position: relative;
+    margin-top: 5px;
+    height: 15px;
+    width: 20px;
+    margin-left: 5px;
+}
+.button-add {
+    font-size: small;
+    margin-bottom: 20px;
+    color:white;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+.vinnu-bio {
+    position: relative;
+    margin-left: 800px;
+    margin-top: 30px;
+}
+.discover-new-books {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -50px;
+}
+* {
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.author {
+    opacity: 0.7;
+    font-size: 11px;
+}
+@media screen and (max-width: 600px) {
+    .second-page-1 {
+        margin-left:300px;
+        margin-right:300px;
+        width:150px;
+    }
+}
